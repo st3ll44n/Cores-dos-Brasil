@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+*{
+    margin: 10px;
+    padding: auto;
+    font-family: "Short Stack", cursive;
+}
+
+header, footer {
+    color: whitesmoke;
+    background-color:green ;
+    width: 100%;
+    padding: 10px 0px;
+    justify-content: start;
+}
+
+#logo img{
+    width: 15%;
+    border-radius: 100%;
+    float: left;
+    display: flex;
+}
+
+footer{
+    display: flex;
+}
+
+header h2{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+.historia{
+    color: black;
+    float: right;
+    background-color: rgba(0, 128, 0, 0.7);
+    width: 65%;
+    height: 1688px;
+    align-items: center;
+}
+
+.blackfriday {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    float: left;
+    align-items: center;
+    background-color:rgba(0, 128, 0, 0.7) ;
+}
+
+.carrossel-imagens {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-imagens img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 70%;
+    transition: opacity 1s aese-in-out;
+}
+
+.carrossel-imagens img.active {
+    opacity: 1;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+    transform: translateY(-50%);
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+.opcao{
+    background-color: rgba(0, 128, 0, 0.7);
+    float: left;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+.opcao h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.empresas{
+    background-color: rgba(0, 128, 0, 0.7);
+    float: left;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+.empresas h3{
+    text-align: center;
+    margin-top: 20px;
+}
